@@ -28,6 +28,7 @@ export function Home() {
             name: newSkill
         } 
         setMySkills(oldState => [...oldState, dataSkill])
+
     }
 
     function handleRemoveSkill(id: string) {

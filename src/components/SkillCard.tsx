@@ -9,7 +9,7 @@ export function SkillCard({skill, ...rest }: SkillCardPropos) {
     return (
 
         <TouchableOpacity  style={styles.buttonSkill} activeOpacity={.7} >
-            <Text style={styles.textSkill} {...rest}>
+            <Text style={styles.textSkill}  {...rest}>
                 {skill}
             </Text>
         </TouchableOpacity>
